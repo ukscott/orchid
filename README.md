@@ -1,3 +1,10 @@
+# Scott Braithwaite Comments
+
+I have made minor changes to testing for just the id numbers so that it will pick up a valid id as id 0 does not exist, and id 30 would be a valid id therefore causing the tests to fail.
+I have created a foreach loop which contains a check for a matching id.  
+I have created a variable with a default of null, however if the id matches then this will store the required values in an object and will output just the required fields.
+
+
 # Code Test
 
 This is a short code test for potential new developers. It's purely PHP command line based so requires no
